@@ -24,7 +24,8 @@ urlpatterns = [
     path('cart/', include('cart.urls', namespace='cart')),
     path('orders/', include('orders.urls', namespace='orders')),
     path('payment/', include('payment.urls', namespace='payment')),
-    path('', include('eshop.urls', namespace='eshop')),
+    path('eshop', include('eshop.urls', namespace='eshop')),
+    path('', include('landing.urls')),  # Include landing app URLs
 ]
 
 if settings.DEBUG:

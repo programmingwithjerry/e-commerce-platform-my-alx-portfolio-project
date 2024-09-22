@@ -1,0 +1,329 @@
+@import url(//fonts.googleapis.com/css?family=Ubuntu);
+
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:normal;
+}
+
+a {
+    text-decoration:none;
+    color:#4a90e2;
+}
+
+a:hover {
+    color:#6ab1e4;
+}
+
+a.button, input[type="submit"] {
+    color:#fff;
+    background:#4a90e2;
+    border-radius:6px;
+    padding:12px 24px;
+    font-size:16px;
+    border:0;
+}
+
+a.button.light {
+    color:#777;
+    background:#f0f0f0;
+}
+
+.text-left {
+    text-align:left;
+}
+
+.text-right {
+    text-align:right;
+}
+
+table {
+    width:100%;
+    border-spacing:0;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    text-align:left;
+    font-size:16px;
+    padding:15px;
+    margin:0;
+}
+
+tbody tr:nth-child(odd) {
+    background:#f9f9f9;
+}
+
+tbody tr.subtotal {
+    background:#ddd;
+}
+
+thead th, tbody tr.total {
+    background:#4a90e2;
+    color:#fff;
+    font-weight:bold;
+}
+
+table.cart {
+    margin-bottom:50px;
+}
+
+table.cart img {
+    width:200px;
+}
+
+tbody td.num {
+    text-align:right;
+}
+
+td input[type="submit"] {
+    font-size:14px;
+    padding:6px 12px;
+}
+
+form p label, form p input {
+    float:left;
+    clear:both;
+}
+
+form p label {
+    font-size:16px;
+    padding-bottom:6px;
+}
+
+form p input {
+    width:320px;
+    font-size:14px;
+    margin-bottom:12px;
+    padding:12px 14px;
+    border:0;
+    background:#f9f9f9;
+    color:#777;
+    border-radius:6px;
+}
+
+ul.errorlist {
+   float:left;
+   color:#e74c3c;
+   clear:both;
+   font-size:14px;
+   margin:0 0 0 12px;
+   padding:12px 0;
+}
+
+#header {
+    padding:15px 120px;
+    font-size:20px;
+    overflow:auto;
+}
+
+#subheader {
+    background:#f4f4f4;
+    color:#555;
+    padding:20px 120px;
+    overflow:auto;
+}
+
+#header .logo {
+    font-family: 'Ubuntu', sans-serif;
+    float:left;
+    color:#444;
+    font-size:24px;
+    margin-right:12%;
+}
+
+#subheader .cart {
+    float:right;
+    padding-top:6px;
+}
+
+#content {
+    padding:0 120px;
+    overflow:hidden;
+}
+
+#sidebar {
+    width:240px;
+    padding:40px 24px 0 0;
+    float:left;
+}
+
+#sidebar ul {
+    margin:0;
+    padding:0;
+}
+
+#sidebar ul li {
+    margin:0;
+    list-style:none;
+    padding:12px 16px;
+}
+
+#sidebar ul li a {
+    display:block;
+}
+
+#sidebar ul li.selected {
+    background:#4a90e2;
+    border-radius:6px;
+}
+
+#sidebar ul li.selected a {
+    color:#fff;
+}
+
+#main {
+    float:left;
+    width: 96%;
+    margin-right:-240px;
+    overflow:hidden;
+}
+
+.product-list .item {
+    width:30%;
+    padding:12px 24px 12px 0;
+    float:left;
+    text-align:center;
+    line-height:1.4;
+}
+
+.product-list .item img {
+    width:100%;
+    margin-bottom:10px;
+}
+
+.product-detail {
+    text-align:justify;
+}
+
+.product-detail .price {
+    color:#444;
+    font-size:32px;
+    font-weight:bold;
+}
+
+.product-detail img {
+    width:45%;
+    float:left;
+    padding:0 24px 24px 0;
+}
+
+.product-detail h1 {
+    margin-bottom:5px;
+}
+
+.product-detail h2 {
+    margin-top:12px;
+}
+
+.order-form {
+    float:left;
+}
+
+.order-info {
+    float:right;
+    width:320px;
+    background:#f9f9f9;
+    padding:12px 24px;
+    color:#444;
+    border-bottom:4px solid #4a90e2;
+}
+
+.order-info h3 {
+    color:#4a90e2;
+}
+
+.order-info ul li {
+    margin:0;
+    padding:0;
+    font-size:16px;
+}
+
+.order-info p {
+    font-weight:bold;
+    float:right;
+}
+
+.order-info span {
+    float:right;
+}
+
+.neg {
+    color:#e74c3c;
+}
+
+.languages {
+   float:right;
+   padding-top:6px;
+   font-size:16px;
+}
+
+.languages ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    float:left;
+}
+
+.languages ul li {
+    float:left;
+    margin:0 0 0 12px;
+    font-size:16px;
+}
+
+.languages p {
+    float:left;
+    margin:0;
+}
+
+.recommendations {
+    clear:both;
+}
+
+.recommendations div {
+    float:left;
+}
+
+.recommendations img {
+    width:220px;
+}
+
+.recommendations p {
+    clear:both;
+}
+
+.recommendations.cart {
+    width:65%;
+    float:left;
+    overflow:auto;
+}
+
+.recommendations.cart h3 {
+    margin-top:5px;
+}
+
+.recommendations.cart .item {
+    margin-right:12px;
+}
+
+.recommendations.cart img {
+    width:130px;
+}
+
+form div.field {
+    font-size:14px;
+    color:#777;
+    width:320px;
+    height:24px;
+    margin-bottom:12px;
+    padding:8px 14px;
+    border:0;
+    background:#f9f9f9;
+    border-radius:6px;
+}
+
